@@ -11,6 +11,6 @@ Gem::Specification.new do |spec|
   spec.extensions        = 'ext/extconf.rb'
   spec.has_rdoc          = true
   spec.rdoc_options      << '--title' << 'Libarchive/Ruby - Ruby bindings for Libarchive.'
-  spec.extra_rdoc_files  = %w(README.txt libarchive.c COPYING.libarchive LICENSE.libbzip2)
+  spec.extra_rdoc_files  = %w(README.txt COPYING.libarchive LICENSE.libbzip2)
   spec.rubyforge_project = 'libarchive'
 end
